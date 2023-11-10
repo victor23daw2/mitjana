@@ -1,0 +1,14 @@
+warning: in the working copy of 'mitjana.c', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/mitjana.c b/mitjana.c[m
+[1mindex 2a0919d..c780411 100644[m
+[1m--- a/mitjana.c[m
+[1m+++ b/mitjana.c[m
+[36m@@ -2,7 +2,7 @@[m
+ [m
+ int main() {[m
+ 	float suma=0.0;[m
+[31m-	float mitjana;[m
+[32m+[m	[32mfloat mitjana=0.0;[m
+ 	float nou_valor;[m
+ 	int numero_repeticions=0;[m
+ 	char consulta='s';[m
